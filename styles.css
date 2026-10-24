@@ -1915,7 +1915,6 @@ select.dropdown.uni-mapping-select,
 .uni-keyword-btn.btn-hide-source:hover,
 .uni-keyword-btn.btn-edit-keyword:hover,
 .uni-keyword-btn.btn-refresh-source:not(.is-disabled-locked):hover {
-  background: rgba(124, 58, 237, 0.16) !important;
   background: color-mix(in srgb, var(--interactive-accent) 18%, transparent) !important;
   color: var(--text-accent) !important;
   border-color: var(--interactive-accent) !important;

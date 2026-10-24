@@ -1,4 +1,4 @@
-# University Schedule & Calendar for Obsidian 🎓
+# University Schedule and Calendar
 
 [![Author](https://img.shields.io/badge/Author-Cesemess-blue.svg)](https://github.com/Cesemess)
 [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux%20%7C%20iOS%20%7C%20Android-brightgreen.svg)]()
