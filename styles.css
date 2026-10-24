@@ -161,14 +161,14 @@
 
 /* Dzisiejszy dzień wyróżniony na inny kolor */
 .uni-day-cell.is-today {
-  background: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
   font-weight: 700;
   box-shadow: 0 0 8px rgba(var(--interactive-accent-rgb, 120, 80, 220), 0.45);
 }
 
 .uni-day-cell.is-today .uni-event-dot {
-  background-color: var(--text-on-accent) !important;
+  background-color: var(--text-on-accent);
 }
 
 /* Wybrany dzień */
@@ -344,13 +344,13 @@
 }
 
 .uni-event-card.is-read-only {
-  cursor: default !important;
+  cursor: default;
 }
 
 .uni-event-card.is-read-only:hover {
-  transform: none !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
-  background: var(--background-secondary) !important;
+  transform: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  background: var(--background-secondary);
 }
 
 .uni-event-card::before {
@@ -565,10 +565,10 @@
 }
 
 /* Course Schedule Modal Styles */
-.uni-schedule-modal-wrapper {
-  max-width: 720px !important;
-  width: 92vw !important;
-  max-height: 85vh !important;
+.modal.uni-schedule-modal-wrapper {
+  max-width: 720px;
+  width: 92vw;
+  max-height: 85vh;
   border-radius: var(--radius-l);
   overflow: hidden;
 }
@@ -649,7 +649,7 @@
   border-radius: var(--radius-s);
   cursor: pointer;
   flex-shrink: 0;
-  transition: all 0.15s ease !important;
+  transition: all 0.15s ease;
 }
 
 .uni-modal-hub-btn svg {
@@ -808,8 +808,8 @@
   gap: 6px;
   border-radius: var(--radius-s);
   cursor: pointer;
-  transition: all 0.15s ease !important;
-  box-shadow: none !important;
+  transition: all 0.15s ease;
+  box-shadow: none;
 }
 
 .uni-hero-action-btn svg {
@@ -818,20 +818,20 @@
 }
 
 .uni-hero-action-btn.is-jump {
-  background: var(--background-primary) !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  color: var(--text-normal) !important;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
 }
 
 .uni-hero-action-btn.is-jump:hover {
-  background: var(--background-modifier-hover) !important;
-  border-color: var(--interactive-accent) !important;
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
 }
 
 .uni-hero-action-btn.is-note {
-  background: var(--interactive-accent) !important;
-  border: 1px solid var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background: var(--interactive-accent);
+  border: 1px solid var(--interactive-accent);
+  color: var(--text-on-accent);
 }
 
 .uni-hero-action-btn.is-note:hover {
@@ -877,21 +877,21 @@
   font-weight: 600;
   padding: 2px 8px;
   border-radius: var(--radius-s);
-  background: transparent !important;
-  border: none !important;
-  color: var(--text-muted) !important;
-  box-shadow: none !important;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  box-shadow: none;
   cursor: pointer;
-  transition: all 0.15s ease !important;
+  transition: all 0.15s ease;
 }
 
 .uni-filter-btn.is-active {
-  background: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
 }
 
 .uni-filter-btn:not(.is-active):hover {
-  color: var(--text-normal) !important;
+  color: var(--text-normal);
 }
 
 .uni-modal-sessions-list {
@@ -1017,7 +1017,7 @@
 
 .uni-session-row.is-cancelled {
   opacity: 0.65;
-  border-left-color: #ef4444 !important;
+  border-left-color: #ef4444;
 }
 
 .uni-session-row.is-cancelled .uni-session-date-text {
@@ -1087,12 +1087,12 @@
   font-weight: 500;
   padding: 4px 8px;
   border-radius: var(--radius-s);
-  border: 1px solid var(--background-modifier-border) !important;
-  background: var(--background-primary) !important;
-  color: var(--text-muted) !important;
-  box-shadow: none !important;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  color: var(--text-muted);
+  box-shadow: none;
   cursor: pointer;
-  transition: all 0.15s ease !important;
+  transition: all 0.15s ease;
 }
 
 .uni-session-btn svg {
@@ -1101,31 +1101,31 @@
 }
 
 .uni-session-btn:hover {
-  background: var(--background-modifier-hover) !important;
-  color: var(--text-normal) !important;
-  border-color: var(--interactive-accent) !important;
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+  border-color: var(--interactive-accent);
 }
 
 .uni-session-btn.is-has-note {
-  color: #10b981 !important;
-  border-color: rgba(16, 185, 129, 0.3) !important;
-  background: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.3);
+  background: rgba(16, 185, 129, 0.08);
 }
 
 .uni-session-btn.is-has-note:hover {
-  background: rgba(16, 185, 129, 0.18) !important;
-  border-color: #10b981 !important;
+  background: rgba(16, 185, 129, 0.18);
+  border-color: #10b981;
 }
 
 .uni-session-btn.is-missing-note {
-  color: var(--text-accent) !important;
-  border-color: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.3) !important;
-  background: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.08) !important;
+  color: var(--text-accent);
+  border-color: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.3);
+  background: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.08);
 }
 
 .uni-session-btn.is-missing-note:hover {
-  background: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.18) !important;
-  border-color: var(--interactive-accent) !important;
+  background: rgba(var(--interactive-accent-rgb, 124, 58, 237), 0.18);
+  border-color: var(--interactive-accent);
 }
 
 
@@ -1307,16 +1307,16 @@
 
 select.dropdown.uni-mapping-select,
 .uni-mapping-select {
-  width: 100% !important;
-  font-size: 0.85rem !important;
-  padding: 6px 32px 6px 10px !important;
-  border-radius: var(--radius-s) !important;
-  background-color: var(--background-modifier-form-field) !important;
-  background-repeat: no-repeat !important;
-  background-position: right 10px center !important;
-  background-size: 14px 14px !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  color: var(--text-normal) !important;
+  width: 100%;
+  font-size: 0.85rem;
+  padding: 6px 32px 6px 10px;
+  border-radius: var(--radius-s);
+  background-color: var(--background-modifier-form-field);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 14px 14px;
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
@@ -1384,35 +1384,35 @@ select.dropdown.uni-mapping-select,
 .uni-add-schedule-url-input {
   flex: 1 1 260px;
   min-width: 180px;
-  font-size: 0.86rem !important;
-  padding: 8px 12px !important;
-  height: 36px !important;
-  border-radius: var(--radius-s) !important;
-  background: var(--background-modifier-form-field) !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  color: var(--text-normal) !important;
-  box-sizing: border-box !important;
+  font-size: 0.86rem;
+  padding: 8px 12px;
+  height: 36px;
+  border-radius: var(--radius-s);
+  background: var(--background-modifier-form-field);
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
+  box-sizing: border-box;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .uni-add-schedule-url-input:focus {
-  border-color: var(--interactive-accent) !important;
-  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2) !important;
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
 }
 
 .uni-add-url-btn {
-  height: 36px !important;
-  padding: 0 14px !important;
-  font-weight: 600 !important;
+  height: 36px;
+  padding: 0 14px;
+  font-weight: 600;
   flex-shrink: 0;
   cursor: pointer;
-  transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease !important;
+  transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
 }
 
 .uni-add-url-btn:hover {
   filter: brightness(1.1);
   transform: translateY(-1px);
-  box-shadow: 0 3px 10px rgba(124, 58, 237, 0.35) !important;
+  box-shadow: 0 3px 10px rgba(124, 58, 237, 0.35);
 }
 
 .uni-add-schedule-upload-row {
@@ -1635,44 +1635,44 @@ select.dropdown.uni-mapping-select,
 
 /* Active glowing state for toggled option buttons - stay illuminated continuously */
 .uni-keyword-btn.btn-calname-active {
-  border-color: #10b981 !important;
-  color: #10b981 !important;
-  background: rgba(16, 185, 129, 0.18) !important;
-  box-shadow: 0 0 7px rgba(16, 185, 129, 0.45), inset 0 0 3px rgba(16, 185, 129, 0.2) !important;
+  border-color: #10b981;
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.18);
+  box-shadow: 0 0 7px rgba(16, 185, 129, 0.45), inset 0 0 3px rgba(16, 185, 129, 0.2);
 }
 
 .uni-keyword-btn.btn-calname-active svg {
-  color: #10b981 !important;
-  stroke: #10b981 !important;
+  color: #10b981;
+  stroke: #10b981;
 }
 
 .uni-keyword-btn.btn-locked-source {
-  border-color: #3b82f6 !important;
-  color: #3b82f6 !important;
-  background: rgba(59, 130, 246, 0.18) !important;
-  box-shadow: 0 0 7px rgba(59, 130, 246, 0.45), inset 0 0 3px rgba(59, 130, 246, 0.2) !important;
+  border-color: #3b82f6;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.18);
+  box-shadow: 0 0 7px rgba(59, 130, 246, 0.45), inset 0 0 3px rgba(59, 130, 246, 0.2);
 }
 
 .uni-keyword-btn.btn-locked-source svg {
-  color: #3b82f6 !important;
-  stroke: #3b82f6 !important;
+  color: #3b82f6;
+  stroke: #3b82f6;
 }
 
 .uni-keyword-btn.btn-show-source {
-  border-color: #f59e0b !important;
-  color: #f59e0b !important;
-  background: rgba(245, 158, 11, 0.18) !important;
-  box-shadow: 0 0 7px rgba(245, 158, 11, 0.45), inset 0 0 3px rgba(245, 158, 11, 0.2) !important;
+  border-color: #f59e0b;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.18);
+  box-shadow: 0 0 7px rgba(245, 158, 11, 0.45), inset 0 0 3px rgba(245, 158, 11, 0.2);
 }
 
 .uni-keyword-btn.btn-show-source svg {
-  color: #f59e0b !important;
-  stroke: #f59e0b !important;
+  color: #f59e0b;
+  stroke: #f59e0b;
 }
 
 .uni-keyword-btn.is-disabled-locked {
   opacity: 0.45;
-  cursor: not-allowed !important;
+  cursor: not-allowed;
 }
 
 .uni-schedule-source-sub {
@@ -1867,40 +1867,40 @@ select.dropdown.uni-mapping-select,
   border-radius: var(--radius-s);
   padding: 5px 8px;
   font-size: 0.76rem;
-  box-shadow: none !important;
+  box-shadow: none;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease !important;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 }
 
 .uni-keyword-btn:not(.mod-cta) {
-  background: transparent !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  color: var(--text-muted) !important;
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
 }
 
 .uni-keyword-btn.mod-cta {
-  background: var(--interactive-accent) !important;
-  border: 1px solid var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background: var(--interactive-accent);
+  border: 1px solid var(--interactive-accent);
+  color: var(--text-on-accent);
   font-weight: 600;
 }
 
 .uni-keyword-btn.mod-cta:hover {
   filter: brightness(1.1);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.35) !important;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.35);
 }
 
 .uni-keyword-btn.uni-action-btn {
-  padding: 7px 14px !important;
-  font-size: 0.82rem !important;
-  font-weight: 500 !important;
-  color: var(--text-normal) !important;
-  background: var(--background-primary) !important;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-normal);
+  background: var(--background-primary);
 }
 
 .uni-keyword-btn svg {
@@ -1915,18 +1915,18 @@ select.dropdown.uni-mapping-select,
 .uni-keyword-btn.btn-hide-source:hover,
 .uni-keyword-btn.btn-edit-keyword:hover,
 .uni-keyword-btn.btn-refresh-source:not(.is-disabled-locked):hover {
-  background: color-mix(in srgb, var(--interactive-accent) 18%, transparent) !important;
-  color: var(--text-accent) !important;
-  border-color: var(--interactive-accent) !important;
-  box-shadow: 0 0 0 1px var(--interactive-accent) !important;
+  background: color-mix(in srgb, var(--interactive-accent) 18%, transparent);
+  color: var(--text-accent);
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 1px var(--interactive-accent);
   transform: translateY(-1px);
 }
 
 .uni-keyword-btn.btn-calname-active:hover {
-  background: rgba(16, 185, 129, 0.28) !important;
-  border-color: #10b981 !important;
-  color: #10b981 !important;
-  box-shadow: 0 0 11px rgba(16, 185, 129, 0.7), inset 0 0 5px rgba(16, 185, 129, 0.3) !important;
+  background: rgba(16, 185, 129, 0.28);
+  border-color: #10b981;
+  color: #10b981;
+  box-shadow: 0 0 11px rgba(16, 185, 129, 0.7), inset 0 0 5px rgba(16, 185, 129, 0.3);
   transform: translateY(-1px);
 }
 
@@ -1935,26 +1935,26 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-keyword-btn.btn-locked-source:hover {
-  background: rgba(59, 130, 246, 0.28) !important;
-  border-color: #3b82f6 !important;
-  color: #3b82f6 !important;
-  box-shadow: 0 0 11px rgba(59, 130, 246, 0.7), inset 0 0 5px rgba(59, 130, 246, 0.3) !important;
+  background: rgba(59, 130, 246, 0.28);
+  border-color: #3b82f6;
+  color: #3b82f6;
+  box-shadow: 0 0 11px rgba(59, 130, 246, 0.7), inset 0 0 5px rgba(59, 130, 246, 0.3);
   transform: translateY(-1px);
 }
 
 .uni-keyword-btn.btn-show-source:hover {
-  background: rgba(245, 158, 11, 0.28) !important;
-  border-color: #f59e0b !important;
-  color: #f59e0b !important;
-  box-shadow: 0 0 11px rgba(245, 158, 11, 0.7), inset 0 0 5px rgba(245, 158, 11, 0.3) !important;
+  background: rgba(245, 158, 11, 0.28);
+  border-color: #f59e0b;
+  color: #f59e0b;
+  box-shadow: 0 0 11px rgba(245, 158, 11, 0.7), inset 0 0 5px rgba(245, 158, 11, 0.3);
   transform: translateY(-1px);
 }
 
 .uni-keyword-btn.btn-delete:hover {
-  background: rgba(239, 68, 68, 0.18) !important;
-  border-color: #ef4444 !important;
-  color: #ef4444 !important;
-  box-shadow: 0 0 0 1px #ef4444 !important;
+  background: rgba(239, 68, 68, 0.18);
+  border-color: #ef4444;
+  color: #ef4444;
+  box-shadow: 0 0 0 1px #ef4444;
   transform: translateY(-1px);
 }
 
@@ -2077,31 +2077,31 @@ select.dropdown.uni-mapping-select,
    Visual Note Template Builder Modal (Properly Contained & Responsive)
    -------------------------------------------------------------------------- */
 .modal.uni-builder-modal-wrapper {
-  width: min(92vw, 680px) !important;
-  max-width: 92vw !important;
-  max-height: 86vh !important;
-  display: flex !important;
-  flex-direction: column !important;
-  padding: 20px !important;
-  box-sizing: border-box !important;
-  overflow: hidden !important;
+  width: min(92vw, 680px);
+  max-width: 92vw;
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .modal.uni-compact-modal-wrapper {
-  width: min(92vw, 500px) !important;
-  max-width: 92vw !important;
-  box-sizing: border-box !important;
+  width: min(92vw, 500px);
+  max-width: 92vw;
+  box-sizing: border-box;
 }
 
 .uni-builder-modal {
-  width: 100% !important;
-  max-width: 100% !important;
-  max-height: calc(86vh - 40px) !important;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  max-height: calc(86vh - 40px);
+  overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
   padding-right: 4px;
 }
 
@@ -2234,8 +2234,8 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-builder-textarea {
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 100%;
+  max-width: 100%;
   min-height: 135px;
   font-family: var(--font-monospace);
   font-size: 0.84rem;
@@ -2246,7 +2246,7 @@ select.dropdown.uni-mapping-select,
   border: 1px solid var(--background-modifier-border);
   color: var(--text-normal);
   resize: vertical;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 .uni-builder-preview-section {
@@ -2265,8 +2265,8 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-builder-preview-box {
-  width: 100% !important;
-  max-width: 100% !important;
+  width: 100%;
+  max-width: 100%;
   padding: 10px 12px;
   border-radius: var(--radius-s);
   background: var(--background-secondary);
@@ -2278,7 +2278,7 @@ select.dropdown.uni-mapping-select,
   overflow-y: auto;
   white-space: pre-wrap;
   word-break: break-word;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 /* --------------------------------------------------------------------------
@@ -2286,10 +2286,10 @@ select.dropdown.uni-mapping-select,
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .modal.uni-builder-modal-wrapper {
-    width: 95vw !important;
-    max-width: 95vw !important;
-    max-height: 90vh !important;
-    padding: 16px !important;
+    width: 95vw;
+    max-width: 95vw;
+    max-height: 90vh;
+    padding: 16px;
   }
 
   .uni-category-edit-row {
@@ -2417,9 +2417,9 @@ select.dropdown.uni-mapping-select,
 /* Keyword Calendar Badges & Input Enhancements */
 .uni-keyword-cal-select {
   max-width: 200px;
-  font-size: 0.84rem !important;
-  padding: 6px 10px !important;
-  border-radius: var(--radius-s) !important;
+  font-size: 0.84rem;
+  padding: 6px 10px;
+  border-radius: var(--radius-s);
 }
 
 .uni-keyword-left-wrap {
@@ -2605,9 +2605,9 @@ select.dropdown.uni-mapping-select,
   gap: 8px;
   padding: 3px 14px 4px 10px;
   border-radius: 8px;
-  background: #FFDD00 !important;
-  color: #000000 !important;
-  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  background: #FFDD00;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.12);
   font-family: 'Cookie', cursive, sans-serif;
   font-size: 1.42rem;
   font-weight: 400;
@@ -2622,10 +2622,10 @@ select.dropdown.uni-mapping-select,
 
 .ai-coffee-btn:hover,
 .uni-coffee-btn:hover {
-  background: #ffea55 !important;
+  background: #ffea55;
   transform: translateY(-1px);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  color: #000000 !important;
+  color: #000000;
 }
 
 .ai-coffee-btn:active,
@@ -2647,8 +2647,8 @@ select.dropdown.uni-mapping-select,
 
 .ai-coffee-btn-text,
 .uni-coffee-btn-text {
-  font-family: 'Cookie', cursive, sans-serif !important;
-  color: #000000 !important;
+  font-family: 'Cookie', cursive, sans-serif;
+  color: #000000;
   letter-spacing: 0.2px;
   line-height: 1;
 }
@@ -2730,8 +2730,8 @@ select.dropdown.uni-mapping-select,
 
 .ai-card-condensed .setting-item,
 .uni-card-condensed .setting-item {
-  border-top: none !important;
-  padding: 4px 0 !important;
+  border-top: none;
+  padding: 4px 0;
 }
 
 .ai-card-condensed .setting-item-name,
@@ -3219,11 +3219,11 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-input-full {
-  width: 100% !important;
+  width: 100%;
 }
 
 .uni-hidden-input {
-  display: none !important;
+  display: none;
 }
 
 .uni-template-header-setting {
@@ -3232,8 +3232,8 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-template-textarea {
-  width: 100% !important;
-  font-family: var(--font-monospace) !important;
+  width: 100%;
+  font-family: var(--font-monospace);
 }
 
 .uni-settings-section-title {
@@ -3247,7 +3247,7 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-calendar-group-content.is-collapsed {
-  display: none !important;
+  display: none;
 }
 
 /* Customization Tab & Settings Cards */
@@ -3303,7 +3303,7 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-gaps-details-container.is-hidden {
-  display: none !important;
+  display: none;
 }
 
 /* Numeric inputs row for Break Min / Max */
@@ -3403,7 +3403,7 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-cal-gap-controls.is-hidden {
-  display: none !important;
+  display: none;
 }
 
 .uni-cal-gap-row {
@@ -3514,7 +3514,7 @@ select.dropdown.uni-mapping-select,
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start !important;
+  justify-content: flex-start;
   min-height: 20px;
   margin: -2px 0;
   cursor: default;
@@ -3529,7 +3529,7 @@ select.dropdown.uni-mapping-select,
   height: 16px;
   box-sizing: border-box;
   border-radius: 50%;
-  background: var(--background-primary) !important;
+  background: var(--background-primary);
   border: 1.5px solid var(--background-modifier-border);
   display: flex;
   align-items: center;
@@ -3548,8 +3548,8 @@ select.dropdown.uni-mapping-select,
 .uni-timeline-break-line-label {
   display: inline-flex;
   align-items: center;
-  margin-left: 4px !important;
-  margin-right: auto !important;
+  margin-left: 4px;
+  margin-right: auto;
 }
 
 .uni-timeline-break-line-text {
@@ -3588,7 +3588,7 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-timeline-break-node {
-  background: var(--background-secondary) !important;
+  background: var(--background-secondary);
   border: 1.5px dashed var(--text-muted);
   border-radius: 50%;
   box-sizing: border-box;
@@ -3622,7 +3622,7 @@ select.dropdown.uni-mapping-select,
 }
 
 .uni-break-event-card::before {
-  display: none !important;
+  display: none;
 }
 
 .uni-break-event-card:hover {
@@ -3663,6 +3663,6 @@ select.dropdown.uni-mapping-select,
 
 
 .uni-schedule-rename-input.is-invalid {
-  border-color: var(--text-error, #ef4444) !important;
-  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25) !important;
+  border-color: var(--text-error, #ef4444);
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
 }
