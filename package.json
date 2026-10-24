@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-uni-calendar",
+  "version": "1.1.0",
+  "description": "University calendar and schedule sidebar with live class countdown, visual note template builder, subject folder mapping, and automatic note linking",
+  "main": "main.js",
+  "scripts": {
+    "version": "node version-bump.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "calendar",
+    "university",
+    "schedule",
+    "timetable",
+    "ical",
+    "ics"
+  ],
+  "author": "Cesemess",
+  "license": "MIT",
+  "homepage": "https://github.com/Cesemess/obsidian-uni-calendar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cesemess/obsidian-uni-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cesemess/obsidian-uni-calendar/issues"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "university-calendar",
+  "name": "University Schedule & Calendar",
+  "version": "1.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "University calendar and schedule sidebar with live class countdown, visual note template builder, subject folder mapping, and automatic note linking",
+  "author": "Cesemess",
+  "authorUrl": "https://github.com/Cesemess",
+  "fundingUrl": "https://buymeacoffee.com/cesemess",
+  "isDesktopOnly": false
+}

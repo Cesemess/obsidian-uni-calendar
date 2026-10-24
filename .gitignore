@@ -1,0 +1,15 @@
+# Obsidian data and cache files
+data.json
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Build and dependencies
+node_modules/
+dist/
+*.log
