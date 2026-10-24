@@ -142,7 +142,7 @@ Tailor your experience in **Settings -> Language & Region**:
 1. Download `main.js`, `manifest.json`, and `styles.css` from the latest GitHub Release.
 2. Inside your Obsidian vault, navigate to `.obsidian/plugins/`.
 3. Create a folder named `university-calendar` and place the three files inside.
-4. Reload Obsidian and enable **University Schedule & Calendar** in **Settings** -> **Community plugins**.
+4. Reload Obsidian and enable **University Schedule and Calendar** in **Settings** -> **Community plugins**.
 
 ---
 
