@@ -6519,7 +6519,7 @@ class UniCalendarSettingTab extends PluginSettingTab {
 
     const badges = linksHeader.createDiv({ cls: "ai-project-header-badges uni-project-header-badges" });
     const vBadge = badges.createSpan({ cls: "ai-about-badge ai-about-badge-version uni-about-badge uni-about-badge-version" });
-    vBadge.textContent = "v" + (this.plugin.manifest?.version || "1.1.0");
+    vBadge.textContent = "v" + (this.plugin.manifest?.version || "1.2.0");
 
     badges.createEl("a", {
       cls: "ai-about-badge uni-about-badge",
